@@ -65,4 +65,5 @@ a{text-decoration:none;color:#fff;}
     .order-3-track-code{padding-left:20px;}
     .col-4-order-1:hover,.col-4-order-2:hover,.col-4-order-3:hover{background-color:rgba(0, 0, 255, 0.7);transition:.3s ease-in;}
     .col-4-order-1:hover .order-1-box i,.col-4-order-2:hover .order-2-box i,.col-4-order-3:hover .order-3-box i{color:#fff;}
+    .col-4-order-1:hover .order-1-track-code p:last-child,.col-4-order-2:hover .order-2-track-code p:last-child,.col-4-order-3:hover .order-3-track-code p:last-child{color:#fff;}
 }
