@@ -5,7 +5,7 @@ a{text-decoration:none;color:#fff;}
 @media screen and (max-width:768px){
     main{margin-top:20px;}
     .ms-cd-col-1{width:100%;display:flex;align-items:center;}
-    .margin-auto{width:92%;margin:auto;}
+    .margin-auto{width:92%;margin:0px auto 120px;}
     .ms-cd-col-1 .ms-cd-col-1-sd-1{width:60%;}
     .ms-cd-col-1 .ms-cd-col-1-sd-2{width:40%;}
     .ms-cd-col-1 .ms-cd-col-1-sd-1 .ms-cd-date p{font-size:16px;}
@@ -43,7 +43,6 @@ a{text-decoration:none;color:#fff;}
     .ms-cd-col-3 .ms-cd-col-3-sd-2 .sd-2-2 p{font-family:'Inter';font-weight:600;font-size:20px;color:rgba(0, 0, 255, 0.7);margin-top:18px;}
     .ms-cd-col-3 .ms-cd-col-3-sd-2 .sd-2-2{display: flex;flex-direction:column;justify-content:center;align-items:self-start;padding-left:15px;}
     .ms-cd-col-3 .ms-cd-col-3-sd-2 .sd-2-2 i{font-size:40px;padding-top:13px;color:rgba(0, 0, 255, 0.7);}
-    .ms-cd-col-4{margin-bottom:150px;}
     .ms-cd-col-4 p{font-family:'Inter';font-weight:600;font-size:23px;text-decoration:underline;}
     .ms-cd-col-4 .col-4{margin-top:20px;}
     .col-4-order-1{display:flex;background-color:#fff;align-items:center;padding:5px 0 5px 20px;margin:0 0 15px;border-radius:20px;}
