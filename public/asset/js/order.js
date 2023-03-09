@@ -23,7 +23,7 @@ class serviceForm{
         }, 3000)
     }
     confirmOrder(itemType,chooseDate){
-        const arrayObject = {itemType,chooseDate}
+        const arrayObject = [itemType,chooseDate]
         getToLs(arrayObject)
     }
 }
@@ -32,11 +32,11 @@ const submitform = new serviceForm()
 function getToLs(arrayObject){
     let dateItem = addToLS()
     dateItem.push(arrayObject)
-    localStorage.setItem('itemDate', JSON.stringify(dateItem))
+    sessionStorage.setItem('itemDate', JSON.stringify(dateItem))
 }
 function addToLS(){
     let dateItem;
-    let dateItemLs = localStorage.getItem('itemDate')
+    let dateItemLs = sessionStorage.getItem('itemDate')
     if(dateItemLs === null){
         dateItem = []
     } else {
