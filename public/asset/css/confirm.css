@@ -52,4 +52,20 @@ a{text-decoration:none;color:#fff;}
     .fh-dd-rd-sn .pickup-date{display:flex;justify-content:space-between;align-items:center;margin:15px 0;}
     .fh-dd-rd-sn .pickup-date p:first-child{font-size:17px;font-family:'Inter';font-weight:400;width:30%;}
     .fh-dd-rd-sn .pickup-date p:last-child{font-size:20px;text-align:end;font-family:'Raleway';font-weight:700;width:70%;display:flex;justify-content:end;}
+    form .gd-wh-es-fm{width:92%;margin:40px auto 0;}
+    .hd-bc-st-note{margin-bottom:15px;}
+    .hd-bc-st-note p{font-family:'Inter';font-size:18px;font-weight:600;text-decoration:underline;
+    text-align:end;line-height:18px;}
+    .md-fc-vb-df .ship-fee{display:flex;justify-content:space-between;align-items:center;margin:15px 0;}
+    .md-fc-vb-df .ship-fee p:first-child{font-size:17px;font-family:'Inter';font-weight:400;width:30%;}
+    .md-fc-vb-df .ship-fee p:last-child{font-size:20px;text-align:end;font-family:'Raleway';font-weight:700;width:70%;display:flex;justify-content:end;}
+    .md-fc-vb-df .ex-item-fee{display:flex;justify-content:space-between;align-items:center;margin:15px 0;}
+    .md-fc-vb-df .ex-item-fee p:first-child{font-size:17px;font-family:'Inter';font-weight:400;width:30%;}
+    .md-fc-vb-df .ex-item-fee p:last-child{font-size:20px;text-align:end;font-family:'Raleway';font-weight:700;width:70%;display:flex;justify-content:end;}
+    .md-fc-vb-df .ex-charges{display:flex;justify-content:space-between;align-items:center;margin:15px 0;}
+    .md-fc-vb-df .ex-charges p:first-child{font-size:17px;font-family:'Inter';font-weight:400;width:30%;}
+    .md-fc-vb-df .ex-charges p:last-child{font-size:20px;text-align:end;font-family:'Raleway';font-weight:700;width:70%;display:flex;justify-content:end;}
+    .md-fc-vb-df .total-charges{display:flex;justify-content:space-between;align-items:center;margin:40px 0 15px;}
+    .md-fc-vb-df .total-charges p:first-child{font-size:20px;font-family:'Inter';font-weight:700;width:30%;}
+    .md-fc-vb-df .total-charges p:last-child{font-size:25px;text-align:end;font-family:'Raleway';font-weight:700;width:70%;display:flex;justify-content:end;}
 }
