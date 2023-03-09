@@ -41,4 +41,11 @@ a{text-decoration:none;color:#fff;}
     .yd-col-3-item select{width:100%;position:relative;font-size:18px;font-family:'Inter';font-weight:600;appearance:none;}
     .yd-col-3-item .col-3-select i{color:#000;position:absolute;right:5%;bottom:0;top:35%;height:fit-content;}
     .yd-col-3-item .col-3-select{position:relative;}
+    .df-gh-yd-col-4{margin-top:20px;}
+    .df-gh-yd-col-4 .yd-col-4-note p{text-align:end;font-family:'Inter';font-weight:600;text-decoration:underline;
+    line-height:18px;font-size:18px;}
+    form{margin-bottom:150px;}
+    .col-4-input-date{margin-top:15px;}
+    .col-4-input-date input[type="date"]{width:100%;padding:20px 15px;border-radius:10px;border:1px solid #000;}
+    .col-4-input-date input[type="date"]{font-family:'Inter';font-size:18px;}
 }

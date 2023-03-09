@@ -1,3 +1,4 @@
 # Local Netlify folder
 .netlify
 # index.html //200
+node_modules
