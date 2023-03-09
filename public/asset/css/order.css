@@ -56,4 +56,6 @@ a{text-decoration:none;color:#fff;}
     .col-weight-2 .col-weight-2-2 input[type="button"],
     .col-weight-2 .col-weight-2-3 input[type="button"]
     {background-color:#fff;text-align:center;font-family:"Inter";font-size:17px;font-weight:600;border:none;}
+    .yd-col-3-item select,.col-4-input-date input[type="date"]{background-color:#fff;}
+    /* .df-gh-yd-col-1 .yd-col-1-service .btn input[type="button"]{padding:7px 7px 7px 0;} */
 }
