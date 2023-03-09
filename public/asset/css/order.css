@@ -33,4 +33,12 @@ a{text-decoration:none;color:#fff;}
     .col-weight-2 .col-weight-2-1,.col-weight-2 .col-weight-2-2,.col-weight-2 .col-weight-2-3{box-shadow:1px 4px 11px rgba(0, 0, 0, 0.25);margin:3px;border-radius:15px;}
     .col-weight-2 .col-weight-2-1 p:hover,.col-weight-2 .col-weight-2-2 p:hover,.col-weight-2 .col-weight-2-3 p:hover{color:rgba(0, 0, 255, 0.7);transition:.3s ease-in;}
     .col-weight-1 .col-weight-1-1 p:hover,.col-weight-1 .col-weight-1-2 p:hover,.col-weight-1 .col-weight-1-3 p:hover{color:rgba(0, 0, 255, 0.7);transition:.3s ease-in;}
+    .df-gh-yd-col-3 .yd-col-3-note p{text-align:end;font-family:'Inter';font-weight:600;text-decoration:underline;
+    line-height:18px;font-size:18px;}
+    .df-gh-yd-col-3{margin-top:20px;}
+    .yd-col-3-item{margin-top:15px;}
+    .yd-col-3-item select{padding:20px 15px;border-radius:10px;position:relative;border-radius:10px;border:1px solid #000;}
+    .yd-col-3-item select{width:100%;position:relative;font-size:18px;font-family:'Inter';font-weight:600;appearance:none;}
+    .yd-col-3-item .col-3-select i{color:#000;position:absolute;right:5%;bottom:0;top:35%;height:fit-content;}
+    .yd-col-3-item .col-3-select{position:relative;}
 }
