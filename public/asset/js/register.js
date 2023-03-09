@@ -14,6 +14,7 @@ form.addEventListener('submit', function(e){
         html.errorMessage()
     } else {
         html.saveForm(fullname,phonenumber,pickupaddress,emailaddress,receivername,dropoffaddress,receiverphonenumber)
+        window.location.href = 'confirm.html'
     }
 
 })

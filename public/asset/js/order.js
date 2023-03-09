@@ -1,5 +1,6 @@
 const form = document.querySelector('.submitForm')
-form.addEventListener('submit', function(){
+form.addEventListener('submit', function(e){
+    e.preventDefault()
     const itemType = document.querySelector('.yd-col-3-item select').value
     const chooseDate = document.querySelector('.col-4-input-date input[type="date"]').value
 
@@ -7,6 +8,7 @@ form.addEventListener('submit', function(){
         submitform.errorMessage()
     } else {
         submitform.confirmOrder(itemType,chooseDate)
+        window.location.href = 'register.html'
     }
 })
 
@@ -23,7 +25,7 @@ class serviceForm{
         }, 3000)
     }
     confirmOrder(itemType,chooseDate){
-        const arrayObject = [itemType,chooseDate]
+        const arrayObject = {itemType,chooseDate}
         getToLs(arrayObject)
     }
 }

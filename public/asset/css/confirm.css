@@ -1,0 +1,55 @@
+*{padding:0;margin:0;outline:none;box-sizing:border-box;}
+body{width:100%;font-family:'Raleway', Verdana, Geneva, Tahoma, sans-serif;scroll-behavior:smooth;}
+html{scroll-behavior:smooth;}
+a{text-decoration:none;color:#fff;}
+@media screen and (max-width:768px){
+    main{margin-top:20px;}
+    .margin-auto{width:92%;margin:auto;}
+    .md-sc-gh{margin-bottom:10px;}
+    .md-sc-gh i{font-size:20px;}
+    .md-sc-gh a{color:#000;}
+    .ms-cd-fg p{font-family:'Inter';font-size:18px;font-weight:600;text-decoration:underline;
+    text-align:end;line-height:18px;}
+    .submit-btn{width:100%;background-color:#fff;height:80px;position:fixed;bottom:0;box-shadow:0px -1px 11px rgba(0, 0, 0, 0.25);}
+    .submit-btn .btn{text-align:center;display:flex;align-items:center;height:inherit;justify-content:center;width:80%;margin:auto}
+    .btn button{width:100%;padding:8px 0;font-weight:700;background-color:rgba(0, 0, 255, 0.7);color:#fff;border:none;border-radius:15px;font-size:25px;font-family:'Poppins';}
+    form .nf-sd-rh-g{width:92%;margin:40px auto 0;}
+    form{padding-bottom:200px}
+    .nf-sd-rh-g .name{display:flex;justify-content:space-between;align-items:center;margin:15px 0;}
+    .nf-sd-rh-g .name p:first-child{font-size:17px;font-family:'Inter';font-weight:400;width:30%;}
+    .nf-sd-rh-g .name p:last-child{font-size:20px;text-align:end;font-family:'Raleway';font-weight:700;width:70%;display:flex;justify-content:end;}
+    .nf-sd-rh-g .phone-number{display:flex;justify-content:space-between;align-items:center;margin:15px 0;}
+    .nf-sd-rh-g .phone-number p:first-child{font-size:17px;font-family:'Inter';font-weight:400;width:30%;}
+    .nf-sd-rh-g .phone-number p:last-child{font-size:20px;text-align:end;font-family:'Raleway';font-weight:700;width:70%;display:flex;justify-content:end;}
+    .nf-sd-rh-g .pickup-address{display:flex;justify-content:space-between;align-items:center;margin:15px 0;}
+    .nf-sd-rh-g .pickup-address p:first-child{font-size:17px;font-family:'Inter';font-weight:400;width:30%;}
+    .nf-sd-rh-g .pickup-address p:last-child{font-size:20px;text-align:end;font-family:'Raleway';font-weight:700;width:70%;display:flex;justify-content:end;}
+    .nf-sd-rh-g .email{display:flex;justify-content:space-between;align-items:center;margin:15px 0;}
+    .nf-sd-rh-g .email p:first-child{font-size:17px;font-family:'Inter';font-weight:400;width:30%;}
+    .nf-sd-rh-g .email p:last-child{font-size:20px;text-align:end;font-family:'Raleway';font-weight:700;width:70%;display:flex;justify-content:end;}
+    .nf-sd-rh-g .receiver-name{display:flex;justify-content:space-between;align-items:center;margin:15px 0;}
+    .nf-sd-rh-g .receiver-name p:first-child{font-size:17px;font-family:'Inter';font-weight:400;width:30%;}
+    .nf-sd-rh-g .receiver-name p:last-child{font-size:20px;text-align:end;font-family:'Raleway';font-weight:700;width:70%;display:flex;justify-content:end;}
+    .nf-sd-rh-g .dropoff-address{display:flex;justify-content:space-between;align-items:center;margin:15px 0;}
+    .nf-sd-rh-g .dropoff-address p:first-child{font-size:17px;font-family:'Inter';font-weight:400;width:30%;}
+    .nf-sd-rh-g .dropoff-address p:last-child{font-size:20px;text-align:end;font-family:'Raleway';font-weight:700;width:70%;display:flex;justify-content:end;}
+    .nf-sd-rh-g .receiver-phone-number{display:flex;justify-content:space-between;align-items:center;margin:15px 0;}
+    .nf-sd-rh-g .receiver-phone-number p:first-child{font-size:17px;font-family:'Inter';font-weight:400;width:30%;}
+    .nf-sd-rh-g .receiver-phone-number p:last-child{font-size:20px;text-align:end;font-family:'Raleway';font-weight:700;width:70%;display:flex;justify-content:end;}
+    form .gd-rt-fg-d{width:92%;margin:40px auto 0;}
+    .nf-sn-rf-note{margin-bottom:15px;}
+    .nf-sn-rf-note p{font-family:'Inter';font-size:18px;font-weight:600;text-decoration:underline;
+    text-align:end;line-height:18px;}
+    .fh-dd-rd-sn .service{display:flex;justify-content:space-between;align-items:center;margin:15px 0;}
+    .fh-dd-rd-sn .service p:first-child{font-size:17px;font-family:'Inter';font-weight:400;width:30%;}
+    .fh-dd-rd-sn .service p:last-child{font-size:20px;text-align:end;font-family:'Raleway';font-weight:700;width:70%;display:flex;justify-content:end;}
+    .fh-dd-rd-sn .weight{display:flex;justify-content:space-between;align-items:center;margin:15px 0;}
+    .fh-dd-rd-sn .weight p:first-child{font-size:17px;font-family:'Inter';font-weight:400;width:30%;}
+    .fh-dd-rd-sn .weight p:last-child{font-size:20px;text-align:end;font-family:'Raleway';font-weight:700;width:70%;display:flex;justify-content:end;}
+    .fh-dd-rd-sn .item-type{display:flex;justify-content:space-between;align-items:center;margin:15px 0;}
+    .fh-dd-rd-sn .item-type p:first-child{font-size:17px;font-family:'Inter';font-weight:400;width:30%;}
+    .fh-dd-rd-sn .item-type p:last-child{font-size:20px;text-align:end;font-family:'Raleway';font-weight:700;width:70%;display:flex;justify-content:end;}
+    .fh-dd-rd-sn .pickup-date{display:flex;justify-content:space-between;align-items:center;margin:15px 0;}
+    .fh-dd-rd-sn .pickup-date p:first-child{font-size:17px;font-family:'Inter';font-weight:400;width:30%;}
+    .fh-dd-rd-sn .pickup-date p:last-child{font-size:20px;text-align:end;font-family:'Raleway';font-weight:700;width:70%;display:flex;justify-content:end;}
+}
