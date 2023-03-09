@@ -6,9 +6,3 @@ arrayBtn.forEach(function(btn){
     })
 })
 
-const ok = document.querySelector('.nd-fdn-gt input[type="button"]')
-ok.style.marginLeft = '20px'
-ok.addEventListener('click', function(){
-    const cal = document.querySelector('.nd-fdn-gt input[type="date"]').value
-    console.log(cal);
-})
