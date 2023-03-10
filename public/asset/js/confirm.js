@@ -31,8 +31,3 @@ itemType.innerHTML = `${itemDateArray[0].itemType}`
 
 const pickupDate = document.querySelector('.pickup-date p:last-child')
 pickupDate.innerHTML = `${itemDateArray[0].chooseDate}`
-
-
-const ran = Math.random().toString(36).slice(2)
-
-const yes = ran.substring(0,ran.length -7)
