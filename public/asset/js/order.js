@@ -14,7 +14,7 @@ form.addEventListener('submit', function(e){
 
 class serviceForm{
     errorMessage(){
-        const marginAuto = document.querySelector('form .submit-btn')
+        const marginAuto = document.querySelector('form .margin-auto')
         const errorNote = document.createElement('div') 
         errorNote.classList.add('p-margin')       
 
@@ -45,3 +45,12 @@ function addToLS(){
         dateItemLs = JSON.parse(dateItemLs)
     } return dateItem
 }
+
+const x = document.querySelector('.md-sc-gh a')
+x.addEventListener('click', function(e){
+    e.preventDefault()
+    if(window.location.href = 'homepage.html'){
+        sessionStorage.removeItem('formDetails')
+        sessionStorage.removeItem('itemDate')
+    }
+})

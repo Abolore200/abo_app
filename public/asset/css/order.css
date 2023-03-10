@@ -58,5 +58,10 @@ a{text-decoration:none;color:#fff;}
     {background-color:#fff;text-align:center;font-family:"Inter";font-size:17px;font-weight:600;border:none;}
     .yd-col-3-item select,.col-4-input-date input[type="date"]{background-color:#fff;}
     .p-margin p{text-align:center;font-size:18px;color:red;}
-    .p-margin{margin-top:15px;}
+    .p-margin{margin-top:15px;margin-bottom:20px;}
+    .df-gh-yd-col-1 .yd-col-1-service .btn:nth-child(2){background-color:rgba(0, 0, 255, 0.7);}
+    .df-gh-yd-col-1 .yd-col-1-service .btn:nth-child(2) i{color:#fff;}
+    .df-gh-yd-col-1 .yd-col-1-service .btn:nth-child(2) input[type="button"]{color:#fff;background-color:rgba(0, 0, 255, 0);}
+    .col-weight-1 .col-weight-1-1{background-color:rgba(0, 0, 255, 0.7);}
+    .col-weight-1 .col-weight-1-1 input[type="button"]{background-color:rgba(0, 0, 255, 0);color:#fff;}
 }

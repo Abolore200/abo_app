@@ -31,3 +31,11 @@ itemType.innerHTML = `${itemDateArray[0].itemType}`
 
 const pickupDate = document.querySelector('.pickup-date p:last-child')
 pickupDate.innerHTML = `${itemDateArray[0].chooseDate}`
+
+const x = document.querySelector('.md-sc-gh a')
+x.addEventListener('click', function(e){
+    e.preventDefault()
+    if(window.location.href = 'register.html'){
+        sessionStorage.removeItem('formDetails')
+    }
+})

@@ -52,3 +52,10 @@ function addToLS(){
         fillFormLs = JSON.parse(fillFormLs)
     } return fillForm
 }
+const x = document.querySelector('.md-sc-gh a')
+x.addEventListener('click', function(e){
+    e.preventDefault()
+    if(window.location.href = 'order.html'){
+        sessionStorage.removeItem('itemDate')
+    }
+})
