@@ -19,4 +19,19 @@ orderNote.innerHTML = `
     <span>${code_two}</span>-
     <span>${code_three}</span>-
     <span>${code_four}</span>
-    `;
+`;
+const x = document.querySelector('.md-sc-gh a')
+x.addEventListener('click', function(e){
+    e.preventDefault()
+    if(window.location.href = 'homepage.html'){
+        sessionStorage.clear()
+    }
+})
+
+const returnHome = document.querySelector('.btn button a')
+returnHome.addEventListener('click', function(e){
+    e.preventDefault()
+    if(window.location.href = 'homepage.html'){
+        sessionStorage.clear()
+    }
+})
