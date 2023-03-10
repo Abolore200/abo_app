@@ -17,7 +17,7 @@ a{text-decoration:none;color:#fff;}
     .df-gh-yd-col-1 .yd-col-1-service{display:flex;overflow-x:scroll;padding:15px 0 20px;}
     .df-gh-yd-col-1 .yd-col-1-service .btn i{font-size:40px;color:#000;}
     .df-gh-yd-col-1 .yd-col-1-service .btn input[type="button"]{font-size:18px;font-family:'Poppins';font-weight:600;color:#000;background-color:#fff;border:none;}
-    .df-gh-yd-col-1 .yd-col-1-service .btn{display:flex;justify-content:center;flex-direction:column;}
+    .df-gh-yd-col-1 .yd-col-1-service .btn{display:flex;justify-content:start;flex-direction:column;}
     .df-gh-yd-col-1 .yd-col-1-service .btn{box-shadow:1px 4px 11px rgba(0, 0, 0, 0.25);border-radius:15px;background-color:#fff;}
     .df-gh-yd-col-1 .yd-col-1-service .btn{margin:0 8px;padding:18px 35px 18px 15px;}
     .df-gh-yd-col-1 .yd-col-1-service .btn:hover i,.df-gh-yd-col-1 .yd-col-1-service .btn:hover input[type="button"]{color:rgba(0, 0, 255, 0.7);transition:.3s ease-in;}
