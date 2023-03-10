@@ -12,8 +12,8 @@ a{text-decoration:none;color:#fff;}
     text-align:start;line-height:18px;}
     .hf-sn-et-gf{width:92%;margin:30px auto 100px;}
     .success-nf-dd{width:60%;margin:0 auto 0;height:199px;border-radius:50%;
-    background-color:rgba(0, 0, 255, 0.3);display:flex;align-items:center;justify-content:center;}
-    .success-mark i{color:rgba(0, 0, 255, 0.7);font-size:170px;}
+    background-color:#fff;display:flex;align-items:center;justify-content:center;}
+    .success-mark i{color:rgba(0, 0, 255, 0.7);font-size:195px;}
     /* .success-mark{height:100%;} */
     .confirm-note{margin-top:10px;margin-bottom:40px;}
     .confirm-note p{font-family:'Inter';font-size:32px;font-weight:700;text-align:center;color:rgba(0, 0, 255, 0.7);}
